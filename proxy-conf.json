@@ -1,0 +1,6 @@
+{
+  "/login":{
+    "target": "http://who.duckdns.org:8081",
+    "secure": false
+  }
+}

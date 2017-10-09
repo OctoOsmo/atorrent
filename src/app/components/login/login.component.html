@@ -1,0 +1,24 @@
+<p>
+  login works!
+</p>
+<div class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Login" [(ngModel)]="login" value="">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="password" [(ngModel)]="password" value="">
+  </mat-form-field>
+  <button mat-raised-button (click)="signIn()">Sign in</button>
+</div>
+<div>
+  <span>login: </span>
+  <span>{{login}}</span>
+</div>
+<div>
+  <span>api version is: </span>
+  <span>{{version}}</span>
+</div>
+<div>
+  <span>qbittorrent version is: </span>
+  <span>{{qbittorrentVersion}}</span>
+</div>
